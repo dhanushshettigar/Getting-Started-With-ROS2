@@ -3,6 +3,8 @@
 
 1. [Introduction](#introduction)
 2. [Installation](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki)
+3. [Workspace](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Workspace)
+4. [Nodes](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Nodes)
 
 
 ### Introduction
