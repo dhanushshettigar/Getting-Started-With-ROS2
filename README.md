@@ -9,4 +9,5 @@
 6. #### [**Service and Client**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Service-and-Client)
 7. #### [**URDF Model**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/URDF-Model)
 8. #### [**URDF For Robot**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/URDF-for-Robot)
+9. #### [**Custom Robot**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Custom-Robot-(2-Wheels))
 
