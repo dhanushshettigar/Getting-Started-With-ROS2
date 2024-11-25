@@ -6,7 +6,6 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/dhanush/Documents/ros2_ws/install/gz_ros2_control/include/**",
         "/opt/ros/jazzy/include/**",
         "/usr/include/**"
       ],
