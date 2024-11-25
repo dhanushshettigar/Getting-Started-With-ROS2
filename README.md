@@ -16,4 +16,5 @@
 13. #### [**Launch Gazebo in ROS2**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Launching-Gazebo-in-ROS2)
 14. #### [**World in ROS2 with Gazebo**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Creating-a-World-in-ROS-with-Gazebo)
 15. #### [**Differential Drive Robot**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Differential-Drive-Robot-Teleop)
+16. #### [**Add a Sensor in Gazebo**](https://github.com/dhanushshettigar/Getting-Started-With-ROS2/wiki/Add-a-Sensor-in-Gazebo)
 
