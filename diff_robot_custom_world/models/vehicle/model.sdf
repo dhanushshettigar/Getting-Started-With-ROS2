@@ -35,6 +35,62 @@
             </collision>
         </link>
 
+        <link name='camera'>
+            <pose>0 0 0.45 0 0 0</pose>
+            <inertial>
+              <mass>0.3</mass>
+              <inertia>
+                <ixx>0.005</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.005</iyy>
+                <iyz>0</iyz>
+                <izz>0.005</izz>
+              </inertia>
+            </inertial>
+            <visual name='visual_camera'>
+              <geometry>
+                <box>
+                  <size>0.3 0.3 0.1</size>
+                </box>
+              </geometry>
+              <material>
+                <ambient>0.7 0.7 0.7 1</ambient>
+                <diffuse>0.7 0.7 0.7 1</diffuse>
+                <specular>0.3 0.3 0.3 1</specular>
+              </material>
+            </visual>
+            <sensor name="camera" type="camera">
+              <camera>
+                <horizontal_fov>1.047</horizontal_fov>
+                <image>
+                  <width>320</width>
+                  <height>240</height>
+                </image>
+                <clip>
+                  <near>0.1</near>
+                  <far>100</far>
+                </clip>
+              </camera>
+              <always_on>1</always_on>
+              <update_rate>30</update_rate>
+              <visualize>true</visualize>
+              <topic>camera</topic>
+            </sensor>
+            <collision name='collision_camera'>
+              <geometry>
+                <box>
+                  <size>0.3 0.3 0.1</size>
+                </box>
+              </geometry>
+            </collision>
+        </link>
+    
+        <joint name='camera_joint' type='fixed'>
+            <parent>chassis</parent>
+            <child>camera</child>
+        </joint>
+
         <link name='left_wheel'>
             <pose>0.277142 0.3125145 -0.0125 -1.5707 0 0</pose>
             <inertial>
